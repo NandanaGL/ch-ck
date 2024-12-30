@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chocolate Cake</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="Heading">Classic Chocolate Cake</h1>
+    <p class="Intro">Indulge in the ultimate chocolatey delight with this rich and moist chocolate cake recipe. 
+        Perfect for any occasion, from birthdays to casual gatherings, this cake is sure to satisfy your sweet cravings. 
+        Made with simple ingredients like cocoa powder, sugar, eggs, and flour, it’s a classic that never goes out of style.
+         Whether you’re a seasoned baker or a beginner, this chocolate cake is easy to make and guaranteed to impress. 
+         Let’s dive into the recipe and make a dessert that everyone will love!
+    </p>
+    <div class="image-container">
+        <img src="chococake2.jpg" alt="Another Chocolate Cake" class="pic1">
+        <img src="triple-chocolate-cake-4.jpg" alt="Classic Chocolate Cake" class="pic2">
+    </div>
+
+    <h2>Ingredients</h2>
+    <h3>i.Cake:</h3>
+    <ul>
+        <li>2 1/4 cups all-purpose flour</li>
+        <li>1 1/2 cups granulated sugar</li>
+        <li>2 teaspoons baking powder</li>
+        <li>1 teaspoon salt</li>
+        <li>1/2 cup unsweetened cocoa powder</li>
+        <li>1/2 cup whole milk, at room temperature</li>
+        <li>2 large eggs, at room temperature</li>
+        <li>1 teaspoon vanilla extract</li>
+    </ul>
+
+    <h3>ii.Chocolate Frosting:</h3>
+    <ul>
+        <li>1 cup unsalted butter, softened</li>
+        <li>2 cups confectioners' sugar</li>
+        <li>1/2 cup unsweetened cocoa powder</li>
+        <li>2 tablespoons milk or heavy cream</li>
+    </ul>
+
+    <h2>Preparation</h2>
+    <ol>
+        <li>Preheat your oven to 350°F (180°C). Grease two 9-inch (23cm) round cake pans.</li>
+        <li>Whisk flour, sugar, baking powder and salt in a medium bowl.</li>
+        <li>Whisk cocoa powder and milk in a large bowl. Add eggs one at a time, whisking well after each addition. Whisk in vanilla.</li>
+        <li>Gradually add dry ingredients to the chocolate mixture, whisking until smooth.</li>
+        <li>Divide batter evenly between prepared pans and smooth tops.</li>
+        <li>Bake for 30-35 minutes or until a toothpick inserted comes out clean. Let cool in pans for 10 minutes, then transfer to a wire rack to cool completely.</li>
+        <li>Beat butter, confectioners' sugar, cocoa powder and milk until smooth and creamy for the frosting.</li>
+        <li>Place one cake layer on a serving plate, spread frosting on top, then place the second layer.</li>
+        <li>Frost the top and sides of the cake with remaining frosting.</li>
+    </ol>
+
+    <h3 class="Note">Tips:</h3>
+    <ul>
+        <li>Use high-quality cocoa powder for the best flavor.</li>
+        <li>Don't overmix the batter.</li>
+        <li>Let the cake cool completely before frosting.</li>
+        <li>You can decorate with chocolate shavings or chopped nuts, if desired.</li>
+    </ul>
+    <p class="speech">Audio version of the recipe</p>
+    <audio controls class="play">
+        <source src="audio-cake.mp3" type="audio/mp3">
+    </audio>
+
+    <section class="feedback-section-wrapper">
+        <section class="feedback-section">
+            <h2 class="feed">Feedback</h2>
+            <form action="/submit-feedback" method="POST" class="feedback-form">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+    
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+    
+                <label for="rating">Rate this recipe:</label>
+                <select id="rating" name="rating">
+                    <option value="" disabled selected>Select your rating</option>
+                    <option value="5">Excellent</option>
+                    <option value="4">Good</option>
+                    <option value="3">Average</option>
+                    <option value="2">Poor</option>
+                    <option value="1">Very Poor</option>
+                </select>
+    
+                <label for="comments">Your Comments:</label>
+                <textarea id="comments" name="comments" rows="4" placeholder="Write your feedback here..."></textarea>
+    
+                <div class="button-container">
+                    <button type="submit">Submit Feedback</button>
+                    <button type="reset">Reset</button>
+                </div>
+            </form>
+        </section>
+    </section>
+    
+
+    <footer>
+        © 2024 Chocolate Lovers | All rights reserved.
+    </footer>
+</body>
+</html>
